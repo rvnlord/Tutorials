@@ -1,0 +1,17 @@
+﻿<div class="col-12">
+    <h1 style="@ElementStyle; @H1Border">GrandChild Component. Employee Age = @EmployeeAge, Counter: @Counter</h1>
+</div>
+
+@code {
+    [CascadingParameter(Name = "ColorStyle")]
+    public string ElementStyle { get; set; }
+
+    [CascadingParameter(Name = "BorderStyle")]
+    public string H1Border { get; set; }
+
+    [CascadingParameter]
+    public int EmployeeAge { get; set; }
+
+    [CascadingParameter(Name = "Counter")]
+    public int Counter { get; set; }
+}
