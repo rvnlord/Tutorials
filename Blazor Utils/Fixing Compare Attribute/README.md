@@ -1,6 +1,6 @@
 ## Blazor Utils Tutorial - Fixing Compare Attribute:
 
-To fix the issues with `Compare Attribute` we have to add the following files to our project to our project:
+To fix the issues with `Compare Attribute` we have to add the following files to our solution:
    
 `CommonLibrary\Extensions\ObjectExtensions.cs`
 
