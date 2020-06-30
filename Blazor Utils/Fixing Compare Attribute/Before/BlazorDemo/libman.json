@@ -13,6 +13,10 @@
     {
       "library": "jqueryui@1.12.1",
       "destination": "wwwroot/lib/libman/jqueryui/"
+    },
+    {
+      "library": "font-awesome@5.13.1",
+      "destination": "wwwroot/lib/libman/font-awesome/"
     }
   ]
 }
