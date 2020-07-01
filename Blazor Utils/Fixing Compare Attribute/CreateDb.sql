@@ -1,14 +1,14 @@
 CREATE DATABASE [BlazorUtilsEmployeeDb]
 ON PRIMARY (
 NAME = N'BlazorUtilsEmployeeDb',
-FILENAME = N'G:\Moje Pliki\GitHub\Tutorials\Blazor Utils\Fixing Compare Attribute\Database\BlazorUtilsEmployeeDb.mdf',
+FILENAME = N'C:\Users\Aldaris\Desktop\Fixing Compare Attribute\Database\BlazorUtilsEmployeeDb.mdf',
 SIZE = 10240 KB,
 MAXSIZE = UNLIMITED,
 FILEGROWTH = 1024 KB
 )
 LOG ON (
 NAME = N'BlazorUtilsEmployeeDb_log',
-FILENAME = N'G:\Moje Pliki\GitHub\Tutorials\Blazor Utils\Fixing Compare Attribute\Database\BlazorUtilsEmployeeDb_log.ldf',
+FILENAME = N'C:\Users\Aldaris\Desktop\Fixing Compare Attribute\Database\BlazorUtilsEmployeeDb_log.ldf',
 SIZE = 5120 KB,
 MAXSIZE = UNLIMITED,
 FILEGROWTH = 10 %
